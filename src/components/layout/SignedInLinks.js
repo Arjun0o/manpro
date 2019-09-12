@@ -6,7 +6,7 @@ function SignedInLinks() {
     return (
         <div>
             <ul className={styles.list}>
-                <li><NavLink to='/' className={styles.listItem}>Create Project</NavLink></li>
+                <li><NavLink to='/' className={styles.listItem}>Project</NavLink></li>
                 <li><NavLink to='/' className={styles.listItem}>SignOut</NavLink></li>
                 <li><NavLink to='/' className={styles.name}>NN</NavLink></li>
             </ul>

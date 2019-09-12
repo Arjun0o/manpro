@@ -5,12 +5,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .navbar{
+    max-width: 100%;
     background-color:#F0F8FF;
-    height: 3rem;
-    padding:0.8rem;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display:flex;
     justify-content: space-between;
-    align-content: center;
-    grid-gap: 10rem;
+    align-items: center;
 }
+

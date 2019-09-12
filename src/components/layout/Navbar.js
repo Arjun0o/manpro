@@ -9,8 +9,8 @@ const Navbar = () => {
         <div>
             <nav className={styles.navbar}>
                 <Link to='/' className={styles.logo}>ManPro</Link>
+                <SignedOutLinks />
                 <SignedInLinks />
-                {/* <SignedOutLinks/> */}
             </nav>
         </div>
     )
