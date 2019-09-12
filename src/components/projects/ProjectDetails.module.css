@@ -1,0 +1,23 @@
+.card{
+    padding:2.4rem;
+    width:70%;
+    margin: 5rem auto;
+    background: rgba(255,235,200,0.3);
+}
+.title{
+    color:#191970;
+    font-size: 1.7rem;
+    margin-bottom:2rem;
+}
+.text{
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color:#E0FFFF;
+    font-weight: 100;
+}
