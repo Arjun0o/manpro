@@ -1,0 +1,26 @@
+.list{
+    display: grid;
+    float:right;
+    height:3rem;
+    grid-gap: 2rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: center;
+    list-style-type: none;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.listItem{
+    text-decoration: none;
+    color:#2F4F4F;
+}
+.listItem:hover{
+    color:black;
+}
+.name{
+    color:black;
+    background-color:white;
+    text-decoration: none;
+    border-radius: 2px;
+    padding:0.3rem;
+    border:1px solid rgba(0,0,0,0.3);
+}
