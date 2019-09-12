@@ -3,3 +3,9 @@
     margin:0;
     box-sizing: border-box;
 }
+body{
+    min-height: 100%;
+    font-family: sans-serif;
+    background: linear-gradient(to right,#dc2424
+    ,#4a569d)
+}

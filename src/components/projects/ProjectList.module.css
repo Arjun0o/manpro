@@ -1,0 +1,27 @@
+.card{
+    width: 50%;
+    background: rgba(255,235,200,0.3);
+    text-align: left;
+    padding:1.7rem;
+    position: relative;
+    margin-bottom: 1rem;
+}
+.title{
+    color:#191970;
+    font-size: 1.2rem;
+    margin-bottom:1rem;
+}
+.posted{
+    margin-bottom: 0.8rem;
+    color:#2F4F4F;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.footer{
+    position: absolute;
+    left:1.6rem;
+    bottom:0.5rem;
+    font-size: 0.9rem;
+    color:#E0FFFF;
+    font-weight: 100;
+}
