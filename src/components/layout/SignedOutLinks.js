@@ -6,8 +6,8 @@ function SignedOutLinks() {
     return (
         <div>
             <ul className={styles.list}>
-                <li><NavLink to='/' className={styles.listItem}>Sign up</NavLink></li>
-                <li><NavLink to='/' className={styles.listItem}>Sign in</NavLink></li>
+                <li><NavLink to='/signup' className={styles.listItem}>Sign up</NavLink></li>
+                <li><NavLink to='/signin' className={styles.listItem}>Sign in</NavLink></li>
             </ul>
         </div>
     )

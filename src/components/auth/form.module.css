@@ -49,7 +49,7 @@ label{
     text-align: center;
 }
 label[For="content"]{
-    margin-left: -2rem;
+    margin-right: -12rem;
 }
 .btn{
     padding:0.6rem;
