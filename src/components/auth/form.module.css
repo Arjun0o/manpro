@@ -48,6 +48,9 @@ label{
     margin-right: -10rem;
     text-align: center;
 }
+label[For="content"]{
+    margin-left: -2rem;
+}
 .btn{
     padding:0.6rem;
     width:10%;
