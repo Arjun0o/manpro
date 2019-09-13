@@ -3,6 +3,7 @@
     width:70%;
     margin: 5rem auto;
     background: rgba(255,235,200,0.3);
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.4)
 }
 .title{
     color:#191970;

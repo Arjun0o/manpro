@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import styles from './form.module.css';
 
-class SignIn extends Component {
+
+class SignUp extends Component {
     state = {
         email: '',
-        password: ''
+        password: '',
+        firstName: '',
+        lastName: ''
     }
     handleChange = (e) => {
         this.setState({
@@ -19,7 +22,7 @@ class SignIn extends Component {
     render() {
         return (
             <form className={styles.container} onSubmit={this.handleSubmit}>
-                <h3 className={styles.title}>Sign In</h3>
+                <h3 className={styles.title}>Sign Up</h3>
                 <div className={styles.input_field}>
                     <label htmlFor="email">Email</label>
                     <input type="email" id='email' onChange={this.handleChange} required />
@@ -28,9 +31,17 @@ class SignIn extends Component {
                     <label htmlFor="password">Password</label>
                     <input type="password" id='password' onChange={this.handleChange} pattern=".{6,}" required />
                 </div>
-                <button className={styles.btn}>Login</button>
+                <div className={styles.input_field}>
+                    <label htmlFor="firstName">First Name</label>
+                    <input type="text" id='firstName' onChange={this.handleChange} required />
+                </div>
+                <div className={styles.input_field}>
+                    <label htmlFor="lastName">Last Name</label>
+                    <input type="text" id='lastName' onChange={this.handleChange} required />
+                </div>
+                <button className={styles.btn}>Sign UP</button>
             </form >
         )
     }
 }
-export default SignIn;
+export default SignUp;
