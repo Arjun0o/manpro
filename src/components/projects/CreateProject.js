@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import styles from '../auth/form.module.css';
+import { connect } from 'react-redux';
+import { createProject } from '../../store/actions/projectAction';
 
 class CreateProject extends Component {
     state = {
@@ -13,7 +15,7 @@ class CreateProject extends Component {
     }
     handleSubmit = (e) => {
         e.preventDefault();
-        console.log(this.state);
+        this.props.createProject(this.state);
     }
     render() {
         return (
@@ -32,4 +34,10 @@ class CreateProject extends Component {
         )
     }
 }
-export default CreateProject;
+const mapDispatchToProps = (dispatch) => {
+    return {
+        createProject: (project) => dispatch(createProject(project))
+    }
+
+}
+export default connect(null, mapDispatchToProps)(CreateProject);
