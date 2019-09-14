@@ -3,8 +3,10 @@ import { Link } from 'react-router-dom';
 import styles from './Navbar.module.css';
 import SignedInLinks from './SignedInLinks';
 import SignedOutLinks from './SignedOutLinks';
+import { connect } from 'react-redux';
 
-const Navbar = () => {
+const Navbar = (props) => {
+    console.log(props);
     return (
         <div>
             <nav className={styles.navbar}>
@@ -15,5 +17,10 @@ const Navbar = () => {
         </div>
     )
 }
+const mapStateToProps = (state) => {
+    return {
+        auth: state.firebase.auth
+    }
+}
 
-export default Navbar;
+export default connect(mapStateToProps)(Navbar);
