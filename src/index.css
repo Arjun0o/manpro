@@ -6,6 +6,10 @@
 body{
     min-height: 100%;
     font-family: sans-serif;
-    background: linear-gradient(to right,#dc2424
-    ,#4a569d)
+    background: url(background.jpg) no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+a{
+    text-decoration: none;
 }

@@ -62,3 +62,9 @@ label[For="content"]{
 .btn:hover{
     background:#F5F5F5;
 }
+
+.redText{
+    margin-top: 1rem;
+    color:red;
+    font-weight: 700;
+}

@@ -22,7 +22,7 @@ const ProjectDetails = (props) => {
         )
     } else {
         return (
-            <div className="container center">
+            <div className={styles.error}>
                 <p>Loading project...</p>
             </div>
         )

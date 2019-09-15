@@ -6,7 +6,6 @@ import SignedOutLinks from './SignedOutLinks';
 import { connect } from 'react-redux';
 
 const Navbar = (props) => {
-    console.log(props);
     return (
         <div>
             <nav className={styles.navbar}>

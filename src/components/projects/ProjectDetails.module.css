@@ -22,3 +22,8 @@
     color:#E0FFFF;
     font-weight: 100;
 }
+.error{
+    margin:1rem 35rem;
+    padding:2rem;
+    color:yellow;
+}

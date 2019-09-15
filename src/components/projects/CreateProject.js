@@ -30,7 +30,7 @@ class CreateProject extends Component {
                     <label htmlFor="content">Content</label>
                     <input type="text" id='content' onChange={this.handleChange} pattern=".{6,}" required />
                 </div>
-                <button className={styles.btn}>Login</button>
+                <button className={styles.btn}>Submit</button>
             </form >
         )
     }
