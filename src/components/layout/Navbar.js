@@ -6,12 +6,13 @@ import SignedOutLinks from './SignedOutLinks';
 import { connect } from 'react-redux';
 
 const Navbar = (props) => {
+    const { auth } = props;
+    const links = auth.uid ? <SignedInLinks /> : <SignedOutLinks />
     return (
         <div>
             <nav className={styles.navbar}>
                 <Link to='/' className={styles.logo}>ManPro</Link>
-                <SignedOutLinks />
-                <SignedInLinks />
+                {links}
             </nav>
         </div>
     )
