@@ -9,7 +9,7 @@ function SignedInLinks(props) {
             <ul className={styles.list}>
                 <li><NavLink to='/create' className={styles.listItem}>Project</NavLink></li>
                 <li><a onClick={props.logOut} className={styles.listItem}>SignOut</a></li>
-                <li><NavLink to='/' className={styles.name}>NN</NavLink></li>
+                <li><NavLink to='/' className={styles.name}>{props.profile.initials}</NavLink></li>
             </ul>
         </div>
     )

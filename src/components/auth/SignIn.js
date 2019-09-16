@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import styles from './form.module.css';
 import { connect } from 'react-redux';
 import { signIn } from '../../store/actions/authAction';
-import { Redirect } from 'react-router-dom';;
+import { Redirect } from 'react-router-dom';
 
 class SignIn extends Component {
     state = {
