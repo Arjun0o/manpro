@@ -1,8 +1,8 @@
 .container{
-    width: 50%;
+    width: 100%;
     background: rgba(255,235,200,0.3);
     text-align: left;
-    padding:1rem;
+    padding:2rem;
     margin:1rem auto;
     position: relative;
     margin-bottom: 1rem;
@@ -16,4 +16,15 @@
     margin-top: 1rem;
     list-style: none;
     font-weight: 700;
+}
+.text1{
+    color:yellow;
+}
+.date{
+    color:whitesmoke;
+    font-size: 0.7rem;
+    margin-bottom: 1rem;
+}
+.content{
+    color:paleturquoise;
 }
